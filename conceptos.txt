@@ -1,0 +1,11 @@
+=> Que es React? Biblioteca de Js de codigo abierto y fue disenado para crear interfaces de usuario.
+=> Biblioteca es un conjunto de implementaciones que podemos usar en nuestro codigo.
+=> Conceptos basicos:
+    1 Componente: Parte reutlizable que funcionan como bloques
+    2 Componente funcionles y de clase
+=> Componente funcional: funcion que retorna un elementode React JSX
+=> Props: arguemntos que puede recibir un componente de React que hereda de un componente padre
+=> Hooks: permite trabajar con los estados de un componente
+=> EventListener: se ejecuta cuando ocurre un evento especifico
+=> DOM: Document Object Model representa la jerarquia de los elementos de la estrutura de la pagina
+
