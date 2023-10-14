@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import '../estilos/estilos.css';
 
-export default function Boton({texto}) {
+export default function Boton({ texto, esBotonDeClic, manejarClic }) {
   return (
-    <button>
-        {texto}
+    <button
+      className={ esBotonDeClic ? 'boton-clic' : 'boton-reiniciar' }
+      onClick={manejarClic}>
+      { texto }
     </button>
   )
 }
